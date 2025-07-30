@@ -21,7 +21,7 @@ export const processQuery = async (req, res) => {
     res.setHeader("Connection", "keep-alive");
     res.setHeader("X-Accel-Buffering", "no");
 
-    const words = fullResponse.split(" ");
+    const words = fullResponse?.answer?.split(" ");
 
     let index = 0;
     const interval = setInterval(() => {

@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+uploads/*
+test/data/05-versions-space.pdf.txt
 
 # Editor directories and files
 .vscode/*
