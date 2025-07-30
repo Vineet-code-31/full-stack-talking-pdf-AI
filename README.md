@@ -11,12 +11,21 @@ $ npm --version
 10.9.2
 #or different but no issues
 ```
-## Node installation on Windows
+## Node installation
 Just go on [official Node.js website](https://nodejs.org/en) & grab the installer. Also, be sure to have git available in your PATH, npm might need it.
 
 ## Install
+download and Install ollama
+open terminal/cmd and run the commands
 ```
-git clone https://github.com/Vineet-code-31/full-stack-talking-pdf-AI.git
+$ ollama run llama3.2
+```
+Wait till it finishes the download. 
+Once download finishes you can write some prompts and check if llama response.
+After few queries please write `/bye`.
+### clone app
+```
+$ git clone https://github.com/Vineet-code-31/full-stack-talking-pdf-AI.git
 $ cd full-stack-talking-pdf-AI
 ```
 ### Run Server 
